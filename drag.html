@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            p {
+                margin: 0;
+            }
+            .draggable { float:left; clear: left; font-size: small;  border-style: solid; width: 50px; height: 20px; float: left; margin: 5px 5px 5px 0; }
+            .droppable { border-style: solid; width: 55px; height: 300px; padding: 0.5em; float: left; }
+        </style>
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <script>
+            var consumers = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+            $(document).ready(function() {
+                $(".draggable" ).draggable({
+                    grid: [ 10,10 ]
+                });
+                $(".droppable" ).droppable({
+                    drop: function(event, ui) {
+                        var addedWatts = parseInt($(ui.draggable).attr("watts"));
+                        var position = parseInt($(this).attr("position"))
+                        
+                        consumers[position] += addedWatts;
+                    }
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <div style="float:left">
+            <div id="consumer1" class="draggable" watts="50">
+                <p>C1</p>
+            </div>
+            <div id="consumer2" class="draggable" watts="60">
+                <p>C2</p>
+            </div>
+            <div id="consumer3" class="draggable" watts="70">
+                <p>C3</p>
+            </div>
+            <div id="consumer4" class="draggable" watts="80">
+                <p>C4</p>
+            </div>
+            <div id="consumer5" class="draggable" watts="80">
+                <p>C5</p>
+            </div>
+            <div id="consumer6" class="draggable" watts="90">
+                <p>C6</p>
+            </div>
+            <div id="consumer7" class="draggable" watts="100">
+                <p>C7</p>
+            </div>
+        </div>
+        <div id="timeslot1" class="droppable" position="0">
+        </div>
+        <div id="timeslot2" class="droppable" position="1">
+        </div>
+        <div id="timeslot3" class="droppable" position="2">
+        </div>
+        <div id="timeslot4" class="droppable" position="3">
+        </div>
+        <div id="timeslot5" class="droppable" position="4">
+        </div>
+        <div id="timeslot6" class="droppable" position="5">
+        </div>
+        <div id="timeslot7" class="droppable" position="6">
+        </div>
+        <div id="timeslot8" class="droppable" position="7">
+        </div>
+        <div id="timeslot9" class="droppable" position="8">
+        </div>
+        <div id="timeslot10" class="droppable" position="9">
+        </div>
+        <div id="timeslot11" class="droppable" position="10">
+        </div>
+        <div id="timeslot12" class="droppable" position="11">
+        </div>
+        <div id="timeslot13" class="droppable" position="12">
+        </div>
+        <div id="timeslot14" class="droppable" position="13">
+        </div>
+    </body>
+</html>
