@@ -10,7 +10,11 @@ Date.prototype.hhmm = function() {
 
 var options = {
     chart: {
-        type: 'areaspline'
+        type: 'areaspline',
+        events: {
+            load: function () {
+            }
+        }
     },
     title: {
         text: 'Power managment for day '
@@ -45,27 +49,22 @@ var options = {
     },
     series: [{
         name : "Generated"
-    },
-        {
-            name: 'Consumers'
-        }]
+    }, {}]
 
 };
+var powerArray = [];
+var periodsArray = [];
 
 var chart1 = new Highcharts.Chart('container',options);
-
-var consumerData = [23,45,65,33,0,0,0,34,0,23,12];
+var consumers = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 
 $(document).ready(function() {
     forecast.get(40.705, -74.258, getChartData);
     function getChartData(data){
 
-        var powerArray = [];
-        var day = '';
-        var currentDay = '';
-        var periodsArray = [];
 
-        initData(data[0]);
+
+        initData(data[1]);
         function switchDay(d){
             powerArray = [];
             periodsArray = [];
@@ -88,11 +87,27 @@ $(document).ready(function() {
                 }
             }
             chart1.series[0].setData(powerArray);
-            chart1.xAxis[0].setCategories(periodsArray)
-            chart1.series[1].setData(consumerData);
-
-
+            chart1.xAxis[0].setCategories(periodsArray);
+            chart1.series[1].setData(consumers);
         }
     }
+
+
+    $(".draggable" ).draggable({
+        grid: [ 10,10 ]
+    });
+    $(".droppable" ).droppable(
+        {
+        drop: function(event, ui) {
+            var addedWatts = parseInt($(ui.draggable).attr("watts"));
+            var position = parseInt($(this).attr("position"));
+            consumers[position*2] += addedWatts;
+            console.log(consumers);
+            chart1.series[0].setData(powerArray);
+            chart1.xAxis[0].setCategories(periodsArray);
+            chart1.series[1].update(consumers);
+        }
+
+    });
 
 });

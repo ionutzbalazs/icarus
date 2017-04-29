@@ -14,3 +14,36 @@ body{
     /*background-repeat: no-repeat;*/
     /*background-position: right;*/
 }
+
+p {
+    margin: 0;
+}
+.draggable {
+    clear: left;
+    border: 1px solid #222;
+    font-size: small;
+    width: 50px;
+    height: 20px;
+    float: left;
+    margin: 5px 5px 5px 0; }
+.droppable {
+    border-right: none;
+    border-left: 1px solid #222;
+    border-top: 1px solid #222;
+    border-bottom: 1px solid #222;
+    width: 78px;
+    height: 300px;
+    padding: 0.5em;
+    float: left;
+}
+
+.graph-row{
+    width: 100%;
+}
+.graph{
+}
+
+.toolbox{
+    margin-right:10px;
+    float: left;
+}

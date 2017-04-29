@@ -8,23 +8,81 @@
     <script type="text/javascript" src="/scripts/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="/scripts/forecastService.js"></script>
     <script type="text/javascript" src="/scripts/archiveService.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="public/js/bower_components/highcharts/highstock.src.js"></script>
+    <script src="public/js/bower_components/highcharts/highcharts-3d.src.js"></script>
+    <script src="public/js/bower_components/highcharts/highcharts-more.src.js"></script>
 </head>
 
 <body>
 <div id="wrapper">
-
-    <div id="container" style="width:100%; height:400px;"></div>
     <button class="dayBtn" value="1" >1</button>
     <button class="dayBtn" value="2">2</button>
     <button class="dayBtn" value="3">3</button>
+    <div class="graph-row">
+
+        <div class="graph">
+            <div id="container" style="width:100%; height:400px;"></div>
+        </div>
+
+    </div>
+
+    <div class="toolbox" >
+        <div id="consumer1" class="draggable" watts="50">
+            <p>C1</p>
+        </div>
+        <div id="consumer2" class="draggable" watts="60">
+            <p>C2</p>
+        </div>
+        <div id="consumer3" class="draggable" watts="70">
+            <p>C3</p>
+        </div>
+        <div id="consumer4" class="draggable" watts="80">
+            <p>C4</p>
+        </div>
+        <div id="consumer5" class="draggable" watts="80">
+            <p>C5</p>
+        </div>
+        <div id="consumer6" class="draggable" watts="90">
+            <p>C6</p>
+        </div>
+        <div id="consumer7" class="draggable" watts="100">
+            <p>C7</p>
+        </div>
+    </div>
+    <div class="drop-box">
+        <div id="timeslot1" class="droppable" position="0">
+        </div>
+        <div id="timeslot2" class="droppable" position="1">
+        </div>
+        <div id="timeslot3" class="droppable" position="2">
+        </div>
+        <div id="timeslot4" class="droppable" position="3">
+        </div>
+        <div id="timeslot5" class="droppable" position="4">
+        </div>
+        <div id="timeslot6" class="droppable" position="5">
+        </div>
+        <div id="timeslot7" class="droppable" position="6">
+        </div>
+        <div id="timeslot8" class="droppable" position="7">
+        </div>
+        <div id="timeslot9" class="droppable" position="8">
+        </div>
+        <div id="timeslot10" class="droppable" position="9">
+        </div>
+        <div id="timeslot11" class="droppable" position="10">
+        </div>
+        <div id="timeslot12" class="droppable" position="11">
+        </div>
+        <div id="timeslot13" class="droppable" position="12">
+        </div>
+        <div id="timeslot14" class="droppable" position="13">
+        </div>
+    </div>
 
 </div>
-<input id="btnGetData" type="button" value="Get data" />
-
-<script src="public/js/bower_components/highcharts/highstock.src.js"></script>
-<script src="public/js/bower_components/highcharts/highcharts-3d.src.js"></script>
-<script src="public/js/bower_components/highcharts/highcharts-more.src.js"></script>
-<script src="scripts/forecast.js"></script>
+    <script src="scripts/forecast.js"></script>
 
 </body>
 </html>

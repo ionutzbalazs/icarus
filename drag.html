@@ -5,28 +5,13 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <style>
-            p {
-                margin: 0;
-            }
-            .draggable { float:left; clear: left; font-size: small;  border-style: solid; width: 50px; height: 20px; float: left; margin: 5px 5px 5px 0; }
-            .droppable { border-style: solid; width: 55px; height: 300px; padding: 0.5em; float: left; }
         </style>
         <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
         <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
         <script>
             var consumers = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
             $(document).ready(function() {
-                $(".draggable" ).draggable({
-                    grid: [ 10,10 ]
-                });
-                $(".droppable" ).droppable({
-                    drop: function(event, ui) {
-                        var addedWatts = parseInt($(ui.draggable).attr("watts"));
-                        var position = parseInt($(this).attr("position"))
-                        
-                        consumers[position] += addedWatts;
-                    }
-                });
+
             });
         </script>
     </head>
