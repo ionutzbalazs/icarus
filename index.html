@@ -22,39 +22,78 @@
         <script type="text/javascript" src="/scripts/jquery-3.2.1.min.js"></script>
         <script type="text/javascript" src="/scripts/forecastService.js"></script>
         <script type="text/javascript" src="/scripts/archiveService.js"></script>
+        <script type="text/javascript" src="/scripts/locations.js"></script>
     </head>
     <body>
         <div id="map"></div>
-        <input id="btnGetData" type="button" value="Get data" />
         <script type="text/javascript">
+         var archive = new ArchiveService('68DoUmZ4rMTTjBuzmx6sGqnLLxVVyTIQ7BGQeOBI');
+         var forecast = new ForecastService('II81jq-woKlvAbIi-LyjbTRRay67syxn');
+         var locationPins = new LocationService();
             $(document).ready(function() {
-                var archive = new ArchiveService('68DoUmZ4rMTTjBuzmx6sGqnLLxVVyTIQ7BGQeOBI');
-                var forecast = new ForecastService('II81jq-woKlvAbIi-LyjbTRRay67syxn');
-
-                $('#btnGetData').on('click', function() {
-                    forecast.get(40.705, -74.258);
-                })
-
-                function displayMarker(marker){
-                    alert(marker.dni.annual);
-                }
+               
             });
 
             var map;
-            var cluj = {lat: 37.574, lng: -109.152};
 
             function initMap() {
                 map = new google.maps.Map(document.getElementById('map'), {
-                    center: cluj,
-                    zoom: 8
+                    zoom: 5,
+                center: new google.maps.LatLng(40, -97),
+                mapTypeId: 'terrain'
                 });
             
-                map.addListener('tilesloaded', function(){
-                    
+                map.addListener('click', function(event){
+                  createMarkers(locationPoints);                
                 });
+
+                function callback(result){
+                    console.log(result.lat, result.long, result.dni.annual)
+                     var latLng = new google.maps.LatLng(result.lat, result.long);
+                var marker = new google.maps.Marker({
+                    position: latLng,
+                    map: map,
+                    icon:getCircle(result.dni.annual),
+                    animation: google.maps.Animation.DROP,
+             });
             }
 
-        </script>
+            function createMarkers(result){
+                for (var i = 0; i < 1; i++) {
+                    if (result[i].population > 10000) {
+                        archive.get(result[i].latitude, result[i].longitude, callback)
+                    }
+                }
+            }
+
+            function getCircle(kw) {
+                return {
+                    path: google.maps.SymbolPath.CIRCLE,
+                    fillColor: generateColor(kw),
+                    fillOpacity: .5,
+                    scale: 30,
+                    strokeColor: 'white',
+                    strokeWeight: .5
+                };
+            }
         
+            function getIcon(radiationValue) {
+                var color = generateColor(radiationValue);
+                return "http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=" + radiationValue + "|" + color;
+            }
+
+        function generateColor(radiationValue) {
+            var min = 0.3 //$("#min").text();
+            var max = 1.2//$("#max").text();
+            var percent = 255 - Math.floor(parseInt((radiationValue - min) * 100) / (max - min)*2.55);
+            var  g =  percent.toString(16)  < 16 ?  "00" : percent.toString(16);
+            var r = "ff"
+            var b = "00";
+            return "#" + r + g + b;
+        }
+}
+
+        </script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCIUEYxLJCHuwGoL7zq-6VDUpg-GpWkpSs&callback=initMap"> </script>        
     </body>
 </html>
