@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="14139802-a0bf-41c2-8d32-0cc1bb6b2b83" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/forecast.html" afterPath="$PROJECT_DIR$/forecast.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/forecast.css" afterPath="$PROJECT_DIR$/public/css/forecast.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/forecast.js" afterPath="$PROJECT_DIR$/scripts/forecast.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/forecastService.js" afterPath="$PROJECT_DIR$/scripts/forecastService.js" />
-    </list>
+    <list default="true" id="14139802-a0bf-41c2-8d32-0cc1bb6b2b83" name="Default" comment="" />
     <ignored path="icarus.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -274,12 +269,12 @@
       <option name="presentableId" value="Default" />
       <updated>1493462758921</updated>
       <workItem from="1493462762716" duration="1748000" />
-      <workItem from="1493465505863" duration="23659000" />
+      <workItem from="1493465505863" duration="24260000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25407000" />
+    <option name="totallyTimeSpent" value="26008000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1366" y="24" width="1366" height="744" extended-state="6" />
