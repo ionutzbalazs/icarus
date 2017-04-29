@@ -19,17 +19,29 @@
         }
         </style>
 
-        <script type="text/javascript" src="/scripts/jquery-3.2.1.min.js"/>
+        <script type="text/javascript" src="/scripts/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="/scripts/forecastService.js"></script>
+        <script type="text/javascript" src="/scripts/archiveService.js"></script>
     </head>
     <body>
         <div id="map"></div>
+        <input id="btnGetData" type="button" value="Get data" />
         <script type="text/javascript">
             $(document).ready(function() {
-                alert('Shall we begin?');
+                var archive = new ArchiveService('68DoUmZ4rMTTjBuzmx6sGqnLLxVVyTIQ7BGQeOBI');
+                var forecast = new ForecastService('II81jq-woKlvAbIi-LyjbTRRay67syxn');
+
+                $('#btnGetData').on('click', function() {
+                    forecast.get(40.705, -74.258);
+                })
+
+                function displayMarker(marker){
+                    alert(marker.dni.annual);
+                }
             });
 
             var map;
-            var cluj = {lat: 46.783, lng: 23.546};
+            var cluj = {lat: 37.574, lng: -109.152};
 
             function initMap() {
                 map = new google.maps.Map(document.getElementById('map'), {
@@ -43,6 +55,6 @@
             }
 
         </script>
-        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAhg4BVdEgPBlyVvFDxzqpSxNi48Q7ZvIg&callback=initMap" async defer></script>
+        
     </body>
 </html>
