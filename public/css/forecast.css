@@ -5,12 +5,12 @@ html, body {
 }
 
 body{
-    background-image: url('/public/images/forecast.jpg');
-    overflow-y: hidden ! important;
-    overflow-x: hidden ! important;
-    background-color: #f8f8f8;
-    background-size: cover;
+    /*background-image: url('/public/images/forecast.jpg');*/
+    /*overflow-y: hidden ! important;*/
+    /*overflow-x: hidden ! important;*/
+    /*background-color: #f8f8f8;*/
+    /*background-size: cover;*/
     /*background-size: contain;*/
-    background-repeat: no-repeat;
-    background-position: right;
+    /*background-repeat: no-repeat;*/
+    /*background-position: right;*/
 }

@@ -6,12 +6,21 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="/public/css/forecast.css">
     <script type="text/javascript" src="/scripts/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="/scripts/forecastService.js"></script>
+    <script type="text/javascript" src="/scripts/archiveService.js"></script>
 </head>
 
 <body>
 <div id="wrapper">
-<div id="container" style="width:100%; height:400px;"></div>
+
+    <div id="container" style="width:100%; height:400px;"></div>
+    <button class="dayBtn" value="1" >1</button>
+    <button class="dayBtn" value="2">2</button>
+    <button class="dayBtn" value="3">3</button>
+
 </div>
+<input id="btnGetData" type="button" value="Get data" />
+
 <script src="public/js/bower_components/highcharts/highstock.src.js"></script>
 <script src="public/js/bower_components/highcharts/highcharts-3d.src.js"></script>
 <script src="public/js/bower_components/highcharts/highcharts-more.src.js"></script>

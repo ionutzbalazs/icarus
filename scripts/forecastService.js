@@ -28,6 +28,7 @@ ForecastService = function (apiKey) {
 
             if (lastForecast && (lastForecast.endPeriod.getDay() != date.getDay()))
             {
+                currentDay.date = lastForecast.endPeriod;
                 result.push(currentDay);
                 currentDay = { forecasts: [] };
             }
