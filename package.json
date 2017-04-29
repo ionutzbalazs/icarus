@@ -1,0 +1,13 @@
+{
+  "name": "Icarus",
+  "version": "1.0.0",
+  "description": "Project Icarus",
+  "scripts": {
+    "dev": "lite-server"
+  },
+  "author": "Team",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.3.0"
+  }
+}
