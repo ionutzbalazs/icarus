@@ -10,6 +10,15 @@ ArchiveService = function(apiKey){
               });
     }
 
+    this.get2 = function (lat, long,title, callback) {
+        var requestUrl = _url + "&lat=" + lat + "&lon=" + long;
+        $.get(requestUrl,
+              function(data) {
+                  var marker = computeMarker(data);
+                  callback(marker, title);
+              });
+    }
+
     function computeMarker(satelliteData) {
         return {
             lat: satelliteData.inputs.lat,
