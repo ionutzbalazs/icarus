@@ -17,7 +17,7 @@ var options = {
         }
     },
     title: {
-        text: 'Power managment for day '
+        text: 'Power management  '
     },
     legend: {
         layout: 'vertical',
@@ -31,12 +31,12 @@ var options = {
     },
     yAxis: {
         title: {
-            text: 'Power W/m^2'
+            text: 'Power W'
         }
     },
     tooltip: {
         shared: true,
-        valueSuffix: ' W/m^2'
+        valueSuffix: ' W'
     },
     credits: {
         enabled: true
@@ -48,20 +48,56 @@ var options = {
         showInNavigator: true
     },
     series: [{
-        name : "Generated"
-    }, {}]
-
+        name : "Generated",
+        color: '#fdfe02'
+    }, {
+        name: "Consumed",
+        color: "#607d8b"
+    }]
 };
+
+$(".divs div").each(function(e) {
+    if (e != 0)
+        $(this).hide();
+});
+
+$("#next").click(function(){
+    if ($(".divs div:visible").next().length != 0)
+        $(".divs div:visible").next().show().prev().hide();
+    else {
+        $(".divs div:visible").hide();
+        $(".divs div:first").show();
+    }
+    return false;
+});
+
+$("#prev").click(function(){
+    if ($(".divs div:visible").prev().length != 0)
+        $(".divs div:visible").prev().show().next().hide();
+    else {
+        $(".divs div:visible").hide();
+        $(".divs div:last").show();
+    }
+    return false;
+});
+
 var powerArray = [];
 var periodsArray = [];
 
 var chart1 = new Highcharts.Chart('container',options);
 var consumers = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 
+
 $(document).ready(function() {
+
+
+
     forecast.get(40.705, -74.258, getChartData);
     function getChartData(data){
+        $("#next").click(function(){
 
+           switchDay(2);
+        });
 
 
         initData(data[1]);
@@ -77,14 +113,15 @@ $(document).ready(function() {
         });
 
         function initData(d){
+
             console.log(d);
             for(var i = 0; i< d.forecasts.length; i++){
-                if(d.forecasts[i].pv_estimate!=0){
-                    if(new Date(d.forecasts[i].endPeriod).getHours()>5 && new Date(d.forecasts[i].endPeriod).getHours()<21){
-                        powerArray.push(parseFloat((d.forecasts[i].pv_estimate).toFixed( 2 )));
+
+                if(d.forecasts[i].endPeriod.getHours()>5 && d.forecasts[i].endPeriod.getHours()<=19 ){
+                        powerArray.push(parseFloat((d.forecasts[i].pv_estimate).toFixed( 2 ))*32);
                         periodsArray.push((new Date(d.forecasts[i].endPeriod)).hhmm());
-                    }
                 }
+                console.log(d.forecasts[i].endPeriod);
             }
             chart1.series[0].setData(powerArray);
             chart1.xAxis[0].setCategories(periodsArray);
@@ -94,20 +131,50 @@ $(document).ready(function() {
 
 
     $(".draggable" ).draggable({
-        grid: [ 10,10 ]
+        cursor: "move",
+        revert: "invalid",
+        helper: "clone",
+        refreshPositions: true
     });
-    $(".droppable" ).droppable(
-        {
-        drop: function(event, ui) {
+
+    $(".droppable").droppable({
+        accept: '.draggable',
+        hoverClass: "ui-state-active",
+        drop: function (ev, ui) {
             var addedWatts = parseInt($(ui.draggable).attr("watts"));
             var position = parseInt($(this).attr("position"));
             consumers[position*2] += addedWatts;
+            consumers[position*2+1] += addedWatts;
             console.log(consumers);
             chart1.series[0].setData(powerArray);
             chart1.xAxis[0].setCategories(periodsArray);
             chart1.series[1].update(consumers);
+            if ($(ui.draggable).hasClass('new')) {
+                $('.new').draggable({
+                    revert: true
+                });
+            } else {
+                $(this).append($(ui.draggable).clone().draggable({
+                    helper: "original"
+                }).addClass('new'));
+            }
         }
-
+        // out: function (event, ui) {
+        //         var addedWatts = parseInt($(ui.draggable).attr("watts"));
+        //         var position = parseInt($(this).attr("position"));
+        //         consumers[position*2+1] -= addedWatts;
+        //         consumers[position*2+1] -= addedWatts;
+        //         console.log(consumers);
+        //         chart1.series[0].setData(powerArray);
+        //         chart1.xAxis[0].setCategories(periodsArray);
+        //         chart1.series[1].update(consumers);
+        //         $(ui.draggable).fadeOut(1000, function () {
+        //             $(this).remove();
+        //         });
+        //
+        // }
     });
+
+
 
 });
