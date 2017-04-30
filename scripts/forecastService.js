@@ -17,6 +17,7 @@ ForecastService = function (apiKey) {
               }
         });
     }
+    
 
     function computePoint(satelliteData, longitude) {
         var result = [];
