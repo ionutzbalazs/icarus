@@ -1,13 +1,20 @@
 var forecast = new ForecastService('II81jq-woKlvAbIi-LyjbTRRay67syxn');
 var current = [];
 
+
+/**
+ * Format date in hh:mm format.
+ * @returns {string}
+ */
 Date.prototype.hhmm = function() {
     var m = this.getMinutes();
     var h = this.getHours();
     return (h<9?0:'')+h+':'+(m<9?0:'')+m;
 };
 
-
+/**
+ * Options for highchart
+ */
 var options = {
     chart: {
         type: 'areaspline',
@@ -55,81 +62,81 @@ var options = {
         color: "#607d8b"
     }]
 };
-
-$(".divs div").each(function(e) {
-    if (e != 0)
-        $(this).hide();
-});
-
-$("#next").click(function(){
-    if ($(".divs div:visible").next().length != 0)
-        $(".divs div:visible").next().show().prev().hide();
-    else {
-        $(".divs div:visible").hide();
-        $(".divs div:first").show();
-    }
-    return false;
-});
-
-$("#prev").click(function(){
-    if ($(".divs div:visible").prev().length != 0)
-        $(".divs div:visible").prev().show().next().hide();
-    else {
-        $(".divs div:visible").hide();
-        $(".divs div:last").show();
-    }
-    return false;
-});
+var squaremeters = 32;
 
 var powerArray = [];
 var periodsArray = [];
-
 var chart1 = new Highcharts.Chart('container',options);
+// Consumers default value
 var consumers = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 
 
-$(document).ready(function() {
+function getChartData(data){
+    var dayToShow = 1;
+    switchDay(dayToShow);
 
-
-
-    forecast.get(40.705, -74.258, getChartData);
-    function getChartData(data){
-        $("#next").click(function(){
-
-           switchDay(2);
-        });
-
-
-        initData(data[1]);
-        function switchDay(d){
-            powerArray = [];
-            periodsArray = [];
-            current = data[d];
-            initData(current);
+    // Next day action
+    $("#next").click(function(){
+        if(dayToShow <=6){
+            dayToShow+=1;
+            switchDay(dayToShow)
         }
-        $('.dayBtn').on('click', function(e) {
-            console.log($(this).val());
-            switchDay($(this).val());
-        });
+    });
 
-        function initData(d){
-
-            console.log(d);
-            for(var i = 0; i< d.forecasts.length; i++){
-
-                if(d.forecasts[i].endPeriod.getHours()>5 && d.forecasts[i].endPeriod.getHours()<=19 ){
-                        powerArray.push(parseFloat((d.forecasts[i].pv_estimate).toFixed( 2 ))*32);
-                        periodsArray.push((new Date(d.forecasts[i].endPeriod)).hhmm());
-                }
-                console.log(d.forecasts[i].endPeriod);
-            }
-            chart1.series[0].setData(powerArray);
-            chart1.xAxis[0].setCategories(periodsArray);
-            chart1.series[1].setData(consumers);
+    // Previous day action
+    $("#prev").click(function(){
+        if(dayToShow >= 0){
+            dayToShow-=1;
+            switchDay(dayToShow)
         }
+    });
+
+    $('#chartrange').on('change',function () {
+        squaremeters = this.value;
+        switchDay(dayToShow);
+        $('#sqaremeters').text(squaremeters);
+
+    });
+    $('#sqaremeters').text(squaremeters);
+
+    /**
+     * @param d which is the day number from array
+     * 0 < d < 6
+     */
+    function switchDay(d){
+        powerArray = [];
+        periodsArray = [];
+        current = data[d];
+        initData(current);
     }
 
+    /**
+     * Initialize data for chart
+     * @param d
+     */
+    function initData(d){
+        for(var i = 0; i< d.forecasts.length; i++){
+            if(d.forecasts[i].endPeriod.getHours()>5 && d.forecasts[i].endPeriod.getHours()<=19 ){
+                powerArray.push(parseFloat((d.forecasts[i].pv_estimate).toFixed( 2 ))*squaremeters);
+                periodsArray.push((new Date(d.forecasts[i].endPeriod)).hhmm());
+            }
+        }
+        chart1.series[0].setData(powerArray);
+        chart1.xAxis[0].setCategories(periodsArray);
+        chart1.series[1].setData(consumers);
+    }
+}
+$(document).ready(function() {
 
+    $('#backtomap').on('click',function () {
+
+        $("#map, #legend").show();
+        $('#secondSection').hide();
+
+    });
+
+
+    // Draggable configuration
     $(".draggable" ).draggable({
         cursor: "move",
         revert: "invalid",
@@ -145,7 +152,6 @@ $(document).ready(function() {
             var position = parseInt($(this).attr("position"));
             consumers[position*2] += addedWatts;
             consumers[position*2+1] += addedWatts;
-            console.log(consumers);
             chart1.series[0].setData(powerArray);
             chart1.xAxis[0].setCategories(periodsArray);
             chart1.series[1].update(consumers);
@@ -174,7 +180,4 @@ $(document).ready(function() {
         //
         // }
     });
-
-
-
 });

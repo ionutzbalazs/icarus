@@ -1,9 +1,8 @@
-
 function MapController() {
     var archive = new ArchiveService('68DoUmZ4rMTTjBuzmx6sGqnLLxVVyTIQ7BGQeOBI');
     var forecast = new ForecastService('II81jq-woKlvAbIi-LyjbTRRay67syxn');
-    var mapView = new MapView();
 
+    var mapView = new MapView();
     var map;
     var generatedPower;
     var price = 12;
@@ -50,12 +49,15 @@ function MapController() {
                 detailsButtonEvent(result.lat, result.long);
             });
         }
+        $('#secondSection').hide();
 
         function detailsButtonEvent(lat, long) {
             $(".btn-info").on("click", function () {
-                var generatedPower = $("#generatedPower").text();
-                alert(lat + " " +  long + " " + generatedPower);
+                // var generatedPower = $("#generatedPower").text();
+                forecast.get(lat, long, getChartData);
+
                 $("#map, #legend").hide();
+                $('#secondSection').show();
             })
         }
         function setPannel(result) {
