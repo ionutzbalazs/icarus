@@ -66,36 +66,56 @@ var squaremeters = 32;
 
 var powerArray = [];
 var periodsArray = [];
-var chart1 = new Highcharts.Chart('container',options);
+var chart1 = new Highcharts.Chart('chart1',options);
 // Consumers default value
 var consumers = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+var currentCity = '';
 
 
 function getChartData(data){
+
     var dayToShow = 1;
+    currentCity = data[0].city;
     switchDay(dayToShow);
-
-    // Next day action
-    $("#next").click(function(){
-        if(dayToShow <=6){
-            dayToShow+=1;
-            switchDay(dayToShow)
+    var weekdays = [];
+    var defaultclass= "";
+    var days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+    for(var k = 1; k<data.length; k++){
+        var dayName = "";
+        if(k==1){
+            dayName = "Today";
+            defaultclass = 'is-active';
+        }else{
+            var da = new Date(data[k].date);
+            dayName = days[da.getDay()];
+            defaultclass = '';
         }
+        $("#weekdaysbtn").append($('<p class="date-btn '+defaultclass+'" id="'+k+'" >'+dayName+'</p>').fadeIn('slow'));
+
+        weekdays.push({
+            name: dayName,
+            order: k
+        });
+    }
+
+    $(".date-btn").on('click',function () {
+
+        var a = $('.date-btn');
+        for (var w = 0; w < a.length; w++) {
+            a[w].classList.remove('is-active')
+        }
+        this.classList.add('is-active');
+        switchDay(this.id);
     });
 
-    // Previous day action
-    $("#prev").click(function(){
-        if(dayToShow >= 0){
-            dayToShow-=1;
-            switchDay(dayToShow)
-        }
-    });
+
+    //Append city name in navbar
+    $("#navcity").text(currentCity);
 
     $('#chartrange').on('change',function () {
         squaremeters = this.value;
         switchDay(dayToShow);
         $('#sqaremeters').text(squaremeters);
-
     });
     $('#sqaremeters').text(squaremeters);
 
@@ -110,20 +130,24 @@ function getChartData(data){
         initData(current);
     }
 
+
     /**
-     * Initialize data for chart
+     * Generate arrays with power and time periods
      * @param d
      */
     function initData(d){
         for(var i = 0; i< d.forecasts.length; i++){
             if(d.forecasts[i].endPeriod.getHours()>5 && d.forecasts[i].endPeriod.getHours()<=19 ){
-                powerArray.push(parseFloat((d.forecasts[i].pv_estimate).toFixed( 2 ))*squaremeters);
+                powerArray.push(parseFloat((d.forecasts[i].pv_estimate).toFixed( 2 ))*32);
                 periodsArray.push((new Date(d.forecasts[i].endPeriod)).hhmm());
             }
         }
         chart1.series[0].setData(powerArray);
         chart1.xAxis[0].setCategories(periodsArray);
         chart1.series[1].setData(consumers);
+        setInterval(function() {
+            $("#chart1").highcharts().reflow();
+        }, 1);
     }
 }
 $(document).ready(function() {
@@ -138,15 +162,18 @@ $(document).ready(function() {
 
     // Draggable configuration
     $(".draggable" ).draggable({
-        cursor: "move",
-        revert: "invalid",
-        helper: "clone",
-        refreshPositions: true
+        containment: 'document',
+        helper: 'clone',
+        cursor: 'move',
+        refreshPositions: true,
+        zIndex:10000,
+        appendTo: "body"
     });
 
     $(".droppable").droppable({
         accept: '.draggable',
         hoverClass: "ui-state-active",
+        tolerance: 'pointer',
         drop: function (ev, ui) {
             var addedWatts = parseInt($(ui.draggable).attr("watts"));
             var position = parseInt($(this).attr("position"));

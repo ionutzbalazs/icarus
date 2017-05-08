@@ -2,13 +2,256 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14139802-a0bf-41c2-8d32-0cc1bb6b2b83" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/drag.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index.php" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/Pe-icon-7-stroke.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/Pe-icon-7-stroke.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/Pe-icon-7-stroke.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/default-avatar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/faces/face-0.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/faces/face-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/faces/face-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/faces/face-3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/faces/face-4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/faces/face-5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/faces/face-6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/faces/face-7.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/faces/tim_vector.jpe" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/icons/1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/icons/10.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/icons/11.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/icons/2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/icons/3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/icons/4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/icons/5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/icons/6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/icons/7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/icons/8.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/icons/9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/mars.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/mask.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/new_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/sidebar-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/sidebar-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/sidebar-3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/sidebar-4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/sidebar-5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/tim_80x80.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/animate.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/light-bootstrap-dashboard.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/pe-icon-7-stroke.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/Pe-icon-7-stroke.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/loading-bubbles.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/bootstrap-checkbox-radio-switch.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/bootstrap-notify.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/bootstrap-select.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/chartist.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/demo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/jquery-1.10.2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/light-bootstrap-dashboard.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/sass/lbd/_alerts.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/sass/lbd/_buttons.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/sass/lbd/_cards.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/sass/lbd/_carousel.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/sass/lbd/_chartist.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/sass/lbd/_checkbox-radio-switch.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/sass/lbd/_collapse.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/sass/lbd/_datepicker.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/sass/lbd/_dropdown.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/sass/lbd/_flexisel.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/sass/lbd/_footers.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/sass/lbd/_icons.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/sass/lbd/_inputs.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/sass/lbd/_labels.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/sass/lbd/_media.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/sass/lbd/_misc.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/sass/lbd/_mixins.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/sass/lbd/_modal.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/sass/lbd/_morphing-buttons.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/sass/lbd/_navbars.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/sass/lbd/_progress-bars.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/sass/lbd/_responsive.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/sass/lbd/_sections.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/sass/lbd/_sidebar-and-main-panel.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/sass/lbd/_sliders.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/sass/lbd/_social-buttons.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/sass/lbd/_tables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/sass/lbd/_tabs-navs-pagination.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/sass/lbd/_tags.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/sass/lbd/_tooltips-and-popovers.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/sass/lbd/_typography.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/sass/lbd/_variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/sass/lbd/mixins/_buttons.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/sass/lbd/mixins/_cards.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/sass/lbd/mixins/_chartist.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/sass/lbd/mixins/_icons.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/sass/lbd/mixins/_inputs.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/sass/lbd/mixins/_labels.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/sass/lbd/mixins/_morphing-buttons.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/sass/lbd/mixins/_navbars.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/sass/lbd/mixins/_social-buttons.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/sass/lbd/mixins/_tabs.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/sass/lbd/mixins/_transparency.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/sass/lbd/mixins/_vendor-prefixes.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/sass/light-bootstrap-dashboard.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/forecast.jpg" afterPath="$PROJECT_DIR$/public/images/forecast.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/forecast.html" afterPath="$PROJECT_DIR$/forecast.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/forecast.css" afterPath="$PROJECT_DIR$/public/css/forecast.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/map.css" afterPath="$PROJECT_DIR$/public/css/map.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/2-axis-collector-active.svg" afterPath="$PROJECT_DIR$/public/images/2-axis-collector-active.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/2-axis-collector.svg" afterPath="$PROJECT_DIR$/public/images/2-axis-collector.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/east-west-collector-active.svg" afterPath="$PROJECT_DIR$/public/images/east-west-collector-active.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/east-west-collector.svg" afterPath="$PROJECT_DIR$/public/images/east-west-collector.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/fixed-collector-active.svg" afterPath="$PROJECT_DIR$/public/images/fixed-collector-active.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/fixed-collector.svg" afterPath="$PROJECT_DIR$/public/images/fixed-collector.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/.bower.json" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/.gitignore" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/README.md" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/adapters/standalone-framework.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/adapters/standalone-framework.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/adapters/standalone-framework.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/adapters/standalone-framework.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/bower.json" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/css/highcharts.css" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/css/highcharts.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/highcharts-3d.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/highcharts-3d.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/highcharts-3d.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/highcharts-3d.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/highcharts-more.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/highcharts-more.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/highcharts-more.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/highcharts-more.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/highcharts.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/highcharts.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/highcharts.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/highcharts.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/highmaps.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/highmaps.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/highmaps.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/highmaps.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/highstock.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/highstock.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/highstock.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/highstock.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/highcharts-3d.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/highcharts-3d.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/highcharts-3d.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/highcharts-3d.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/highcharts-more.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/highcharts-more.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/highcharts-more.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/highcharts-more.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/highcharts.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/highcharts.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/highcharts.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/highcharts.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/highmaps.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/highmaps.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/highmaps.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/highmaps.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/highstock.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/highstock.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/highstock.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/highstock.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/accessibility.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/accessibility.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/accessibility.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/accessibility.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/annotations.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/annotations.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/annotations.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/annotations.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/boost-canvas.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/boost-canvas.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/boost-canvas.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/boost-canvas.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/boost.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/boost.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/boost.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/boost.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/broken-axis.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/broken-axis.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/broken-axis.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/broken-axis.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/data.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/data.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/data.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/data.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/drilldown.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/drilldown.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/drilldown.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/drilldown.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/exporting.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/exporting.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/exporting.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/exporting.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/funnel.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/funnel.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/funnel.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/funnel.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/gantt.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/gantt.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/gantt.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/gantt.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/grid-axis.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/grid-axis.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/grid-axis.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/grid-axis.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/heatmap.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/heatmap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/heatmap.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/heatmap.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/map.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/map.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/map.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/map.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/no-data-to-display.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/no-data-to-display.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/no-data-to-display.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/no-data-to-display.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/offline-exporting.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/offline-exporting.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/offline-exporting.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/offline-exporting.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/overlapping-datalabels.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/overlapping-datalabels.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/overlapping-datalabels.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/overlapping-datalabels.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/series-label.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/series-label.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/series-label.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/series-label.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/solid-gauge.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/solid-gauge.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/solid-gauge.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/solid-gauge.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/static-scale.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/static-scale.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/static-scale.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/static-scale.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/stock.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/stock.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/stock.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/stock.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/treemap.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/treemap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/treemap.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/treemap.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/xrange-series.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/xrange-series.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/xrange-series.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/xrange-series.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/themes/dark-blue.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/themes/dark-blue.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/themes/dark-green.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/themes/dark-green.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/themes/dark-unica.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/themes/dark-unica.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/themes/gray.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/themes/gray.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/themes/grid-light.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/themes/grid-light.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/themes/grid.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/themes/grid.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/themes/sand-signika.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/themes/sand-signika.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/themes/skies.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/themes/skies.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/lib/canvg.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/lib/canvg.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/lib/canvg.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/lib/canvg.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/lib/jspdf.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/lib/jspdf.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/lib/jspdf.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/lib/jspdf.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/lib/rgbcolor.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/lib/rgbcolor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/lib/rgbcolor.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/lib/rgbcolor.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/lib/svg2pdf.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/lib/svg2pdf.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/lib/svg2pdf.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/lib/svg2pdf.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/accessibility.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/accessibility.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/accessibility.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/accessibility.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/annotations.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/annotations.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/annotations.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/annotations.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/boost-canvas.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/boost-canvas.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/boost-canvas.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/boost-canvas.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/boost.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/boost.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/boost.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/boost.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/broken-axis.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/broken-axis.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/broken-axis.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/broken-axis.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/canvas-tools.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/canvas-tools.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/canvas-tools.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/canvas-tools.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/data.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/data.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/data.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/data.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/drilldown.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/drilldown.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/drilldown.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/drilldown.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/exporting.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/exporting.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/exporting.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/exporting.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/funnel.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/funnel.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/funnel.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/funnel.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/gantt.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/gantt.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/gantt.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/gantt.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/grid-axis.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/grid-axis.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/grid-axis.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/grid-axis.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/heatmap.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/heatmap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/heatmap.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/heatmap.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/map.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/map.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/map.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/map.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/no-data-to-display.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/no-data-to-display.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/no-data-to-display.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/no-data-to-display.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/offline-exporting.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/offline-exporting.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/offline-exporting.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/offline-exporting.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/overlapping-datalabels.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/overlapping-datalabels.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/overlapping-datalabels.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/overlapping-datalabels.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/series-label.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/series-label.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/series-label.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/series-label.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/solid-gauge.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/solid-gauge.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/solid-gauge.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/solid-gauge.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/static-scale.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/static-scale.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/static-scale.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/static-scale.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/stock.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/stock.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/stock.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/stock.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/treemap.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/treemap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/treemap.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/treemap.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/xrange-series.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/xrange-series.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/xrange-series.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/xrange-series.src.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/package.json" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/themes/dark-blue.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/themes/dark-blue.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/themes/dark-green.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/themes/dark-green.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/themes/dark-unica.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/themes/dark-unica.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/themes/gray.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/themes/gray.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/themes/grid-light.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/themes/grid-light.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/themes/grid.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/themes/grid.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/themes/sand-signika.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/themes/sand-signika.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/themes/skies.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/themes/skies.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/forecast.js" afterPath="$PROJECT_DIR$/scripts/forecast.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/forecastService.js" afterPath="$PROJECT_DIR$/scripts/forecastService.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/mapView.js" afterPath="$PROJECT_DIR$/scripts/mapView.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/maps.js" afterPath="$PROJECT_DIR$/scripts/maps.js" />
     </list>
     <ignored path="icarus.iws" />
@@ -30,11 +273,67 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="35" column="56" selection-start-line="35" selection-start-column="56" selection-end-line="35" selection-end-column="56" />
+            <state relative-caret-position="126">
+              <caret line="43" column="27" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="27" />
+              <folding>
+                <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#3;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#4;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#5;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#5;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#5;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#6;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#6;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#nav#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#td#0;n#tr#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#td#13;n#tr#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="light-bootstrap-dashboard.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/css/light-bootstrap-dashboard.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="18">
+              <caret line="244" column="19" selection-start-line="244" selection-start-column="19" selection-end-line="244" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="map.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/css/map.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="148" column="24" selection-start-line="148" selection-start-column="24" selection-end-line="148" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="forecast.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/forecast.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="38" column="58" selection-start-line="38" selection-start-column="58" selection-end-line="38" selection-end-column="58" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -50,50 +349,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="forecast.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/forecast.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" column="75" selection-start-line="6" selection-start-column="3" selection-end-line="14" selection-end-column="75" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#5;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#13;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fakechart.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fakedata/fakechart.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1080">
-              <caret line="60" column="18" selection-start-line="60" selection-start-column="7" selection-end-line="60" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="forecast.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/forecast.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="forecast.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/css/forecast.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="373">
-              <caret line="171" column="1" selection-start-line="171" selection-start-column="1" selection-end-line="171" selection-end-column="1" />
+            <state relative-caret-position="288">
+              <caret line="199" column="26" selection-start-line="199" selection-start-column="19" selection-end-line="199" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -102,18 +362,31 @@
       <file leaf-file-name="maps.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/maps.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+            <state relative-caret-position="94">
+              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mapView.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="mapView.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/mapView.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="15" column="95" selection-start-line="15" selection-start-column="88" selection-end-line="15" selection-end-column="95" />
+            <state relative-caret-position="18">
+              <caret line="1" column="15" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="15" />
+              <folding>
+                <marker date="1494278837090" expanded="true" signature="770:792" ph="..." />
+                <marker date="1494278837090" expanded="true" signature="1386:1402" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="forecast.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/css/forecast.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -131,14 +404,16 @@
         <option value="$PROJECT_DIR$/css/forecast.css" />
         <option value="$PROJECT_DIR$/fakedata/fakechart.json" />
         <option value="$PROJECT_DIR$/.htaccess" />
-        <option value="$PROJECT_DIR$/scripts/forecastService.js" />
         <option value="$PROJECT_DIR$/drag.html" />
-        <option value="$PROJECT_DIR$/scripts/mapView.js" />
         <option value="$PROJECT_DIR$/forecast.html" />
-        <option value="$PROJECT_DIR$/scripts/forecast.js" />
-        <option value="$PROJECT_DIR$/scripts/maps.js" />
+        <option value="$PROJECT_DIR$/scripts/forecastService.js" />
+        <option value="$PROJECT_DIR$/public/css/light-bootstrap-dashboard.css" />
         <option value="$PROJECT_DIR$/public/css/forecast.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/public/css/map.css" />
+        <option value="$PROJECT_DIR$/scripts/mapView.js" />
+        <option value="$PROJECT_DIR$/scripts/forecast.js" />
+        <option value="$PROJECT_DIR$/scripts/maps.js" />
       </list>
     </option>
   </component>
@@ -152,7 +427,7 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1366" />
+    <option name="x" value="1366" />
     <option name="y" value="792" />
     <option name="width" value="1366" />
     <option name="height" value="744" />
@@ -183,7 +458,9 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
+      <pane id="Scope">
+        <subPane subId="Project Files" />
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -212,7 +489,57 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="scripts" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="icarus" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="icarus" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="icarus" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="icarus" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="icarus" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="icarus" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -224,15 +551,21 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="/usr/bin/node" />
+    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/public/images" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public/js" />
       <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/img/icons" />
+      <recent name="$PROJECT_DIR$/public/img" />
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/public/js" />
+      <recent name="$PROJECT_DIR$/public/css" />
     </key>
   </component>
   <component name="RunManager">
@@ -297,17 +630,23 @@
       <workItem from="1493465505863" duration="29860000" />
       <workItem from="1493534027974" duration="16230000" />
       <workItem from="1493645131109" duration="9167000" />
+      <workItem from="1493662630230" duration="6000" />
+      <workItem from="1493846670450" duration="6485000" />
+      <workItem from="1493917049587" duration="13050000" />
+      <workItem from="1493982638512" duration="11739000" />
+      <workItem from="1494274038377" duration="132000" />
+      <workItem from="1494274418403" duration="4493000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57005000" />
+    <option name="totallyTimeSpent" value="92910000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1366" y="792" width="1366" height="744" extended-state="6" />
+    <frame x="1366" y="792" width="1366" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25841874" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -326,26 +665,6 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -360,15 +679,79 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/scripts/forecast.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/forecast.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3078">
+          <caret line="171" column="1" selection-start-line="171" selection-start-column="1" selection-end-line="171" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/maps.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/mapView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="95" selection-start-line="15" selection-start-column="88" selection-end-line="15" selection-end-column="95" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#3;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#4;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#5;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#5;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#5;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#6;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#6;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#nav#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#td#0;n#tr#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#td#13;n#tr#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forecast.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="75" selection-start-line="6" selection-start-column="3" selection-end-line="14" selection-end-column="75" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -383,27 +766,92 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/drag.html">
+    <entry file="file://$PROJECT_DIR$/fakedata/fakechart.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="34" column="82" selection-start-line="34" selection-start-column="61" selection-end-line="34" selection-end-column="82" />
+        <state relative-caret-position="1080">
+          <caret line="60" column="18" selection-start-line="60" selection-start-column="7" selection-end-line="60" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/forecast.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/forecast.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3078">
+          <caret line="171" column="1" selection-start-line="171" selection-start-column="1" selection-end-line="171" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/maps.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/mapView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="95" selection-start-line="15" selection-start-column="88" selection-end-line="15" selection-end-column="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#3;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#4;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#5;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#5;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#5;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#6;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#6;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#nav#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#td#0;n#tr#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#td#13;n#tr#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drag.html" />
     <entry file="file://$PROJECT_DIR$/forecast.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="936">
           <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#5;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#13;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#5;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#6;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#13;n#div#1;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -412,7 +860,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1080">
           <caret line="60" column="18" selection-start-line="60" selection-start-column="7" selection-end-line="60" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -421,6 +868,41 @@
         <state relative-caret-position="1350">
           <caret line="75" column="18" selection-start-line="75" selection-start-column="18" selection-end-line="75" selection-end-column="18" />
           <folding>
+            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#3;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#4;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#5;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#5;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#5;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#6;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#6;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#nav#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#td#0;n#tr#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#td#13;n#tr#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drag.html" />
+    <entry file="file://$PROJECT_DIR$/forecast.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1026">
+          <caret line="57" column="56" selection-start-line="57" selection-start-column="56" selection-end-line="57" selection-end-column="56" />
+          <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -434,36 +916,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/drag.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="39" column="18" selection-start-line="19" selection-start-column="10" selection-end-line="39" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/forecast.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1026">
-          <caret line="57" column="56" selection-start-line="57" selection-start-column="56" selection-end-line="57" selection-end-column="56" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#5;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#13;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/fakedata/fakechart.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1080">
           <caret line="60" column="18" selection-start-line="60" selection-start-column="7" selection-end-line="60" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -487,7 +943,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="558">
           <caret line="31" column="40" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -495,6 +950,40 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="558">
           <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#3;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#4;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#5;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#5;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#5;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#6;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#6;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#nav#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#td#0;n#tr#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#td#13;n#tr#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forecast.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -505,23 +994,6 @@
             <element signature="n#style#0;n#div#6;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#13;n#div#1;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/forecast.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#5;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#13;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -538,7 +1010,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -554,87 +1025,107 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1080">
           <caret line="60" column="18" selection-start-line="60" selection-start-column="7" selection-end-line="60" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/drag.html">
+    <entry file="file://$PROJECT_DIR$/drag.html" />
+    <entry file="file://$PROJECT_DIR$/public/css/animate.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="34" column="82" selection-start-line="34" selection-start-column="61" selection-end-line="34" selection-end-column="82" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/map.css">
+    <entry file="file://$PROJECT_DIR$/public/js/bootstrap.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="83" column="0" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/forecastService.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="576">
-          <caret line="32" column="40" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
+          <caret line="32" column="39" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/light-bootstrap-dashboard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="43" column="16" selection-start-line="43" selection-start-column="11" selection-end-line="43" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/sass/lbd/_responsive.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2754">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/sass/light-bootstrap-dashboard.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/img/mars.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/img/icons/4.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/img/icons/2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/img/icons/3.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/img/icons/6.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/img/icons/1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/img/icons/5.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/forecast.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/mapView.js">
+    <entry file="file://$PROJECT_DIR$/public/css/light-bootstrap-dashboard.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="95" selection-start-line="15" selection-start-column="88" selection-end-line="15" selection-end-column="95" />
+        <state relative-caret-position="18">
+          <caret line="244" column="19" selection-start-line="244" selection-start-column="19" selection-end-line="244" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/forecast.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="75" selection-start-line="6" selection-start-column="3" selection-end-line="14" selection-end-column="75" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#5;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#13;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/forecast.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/maps.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/forecast.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="171" column="1" selection-start-line="171" selection-start-column="1" selection-end-line="171" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="35" column="56" selection-start-line="35" selection-start-column="56" selection-end-line="35" selection-end-column="56" />
+        <state relative-caret-position="306">
+          <caret line="38" column="58" selection-start-line="38" selection-start-column="58" selection-end-line="38" selection-end-column="58" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -645,6 +1136,75 @@
             <element signature="n#style#0;n#div#6;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#13;n#div#1;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="43" column="27" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="27" />
+          <folding>
+            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#3;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#4;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#5;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#5;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#5;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#6;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#6;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#nav#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#td#0;n#tr#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#td#13;n#tr#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/map.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="148" column="24" selection-start-line="148" selection-start-column="24" selection-end-line="148" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/forecast.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="199" column="26" selection-start-line="199" selection-start-column="19" selection-end-line="199" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/maps.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/mapView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="15" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="15" />
+          <folding>
+            <marker date="1494278837090" expanded="true" signature="770:792" ph="..." />
+            <marker date="1494278837090" expanded="true" signature="1386:1402" ph="..." />
           </folding>
         </state>
       </provider>

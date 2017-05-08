@@ -20,7 +20,6 @@ function MapController() {
             createMarkers(locationPoints);
         });
 
-        
 
 google.maps.event.addListener(infowindow, 'domready', function() {
 
@@ -93,16 +92,15 @@ iwCloseBtn.mouseout(function(){
                 generatedPower = result.ghi.annual.toFixed(2);
                 setPannel(result);
                 changeEnergyValue();
-                detailsButtonEvent(result.lat, result.long);
+                detailsButtonEvent(result.lat, result.long, this.title);
             });
         }
         $('#secondSection').hide();
 
-        function detailsButtonEvent(lat, long) {
+        function detailsButtonEvent(lat, long, city) {
             $(".btn-info").on("click", function () {
                 // var generatedPower = $("#generatedPower").text();
-                forecast.get(lat, long, getChartData);
-
+                forecast.get(lat, long, city, getChartData);
                 $("#map, #legend").hide();
                 $('#secondSection').show();
             })

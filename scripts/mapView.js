@@ -8,14 +8,14 @@ function MapView(){
                 '<div class="card"><img id="fixed-collector" src="./public/images/fixed-collector-active.svg"/></div>' +
                 '<div class="card"><img id="east-west-collector" src="./public/images/east-west-collector.svg"/></div>' +
                 '<div class="card"><img id="2-axis-collector" src="./public/images/2-axis-collector.svg"/></div>' +
-                '<div class="iw-subTitle">Select total surface of pannels:  <output id="rangevalue">32</output> Sq m</div>' +
+                '<div class="iw-subTitle" style="	display: inline-flex;">Select total surface of pannels:  <small id="rangevalue">32</small> Sq m</div>' +
                 '<input type="range" min="1" max="64" value=32" step="1" onchange="rangevalue.value=value" />' +
                 '</div>' +
-                //'<div id="details"><button class="btn btn-info" id="detailBtn">Get More Details</button></div>' +
+                '<div id="details"><button class="btn btn-info" id="detailBtn">Get More Details</button></div>' +
                 '<div>'+
                 '<div class="iw-title footer">Generated power -  <h4 id="generatedPower">' + generatedPower + '</h4><h4>kwh</h4>' +                 
                 '</div>' +
-                '<div class="iw-title pricetag"><h4>$</h4><h4 id="price">' + profit + '</h4>' +                 
+                '<div class="iw-title pricetag" style="    width: 80px;"><h4>$</h4><h4 id="price">' + profit + '</h4>' +
                 '</div>' +
                 '</div>';
             return content;
