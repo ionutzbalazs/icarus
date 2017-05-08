@@ -1,253 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="14139802-a0bf-41c2-8d32-0cc1bb6b2b83" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/Pe-icon-7-stroke.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/Pe-icon-7-stroke.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/Pe-icon-7-stroke.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/default-avatar.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/faces/face-0.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/faces/face-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/faces/face-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/faces/face-3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/faces/face-4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/faces/face-5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/faces/face-6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/faces/face-7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/faces/tim_vector.jpe" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/icons/1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/icons/10.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/icons/11.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/icons/2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/icons/3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/icons/4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/icons/5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/icons/6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/icons/7.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/icons/8.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/icons/9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/mask.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/new_logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/sidebar-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/sidebar-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/sidebar-3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/sidebar-4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/sidebar-5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/tim_80x80.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/Pe-icon-7-stroke.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/loading-bubbles.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/bootstrap-checkbox-radio-switch.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/bootstrap-notify.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/bootstrap-select.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/chartist.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/demo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/jquery-1.10.2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/light-bootstrap-dashboard.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/sass/lbd/_alerts.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/sass/lbd/_buttons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/sass/lbd/_cards.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/sass/lbd/_carousel.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/sass/lbd/_chartist.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/sass/lbd/_checkbox-radio-switch.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/sass/lbd/_collapse.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/sass/lbd/_datepicker.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/sass/lbd/_dropdown.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/sass/lbd/_flexisel.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/sass/lbd/_footers.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/sass/lbd/_icons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/sass/lbd/_inputs.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/sass/lbd/_labels.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/sass/lbd/_media.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/sass/lbd/_misc.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/sass/lbd/_mixins.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/sass/lbd/_modal.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/sass/lbd/_morphing-buttons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/sass/lbd/_navbars.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/sass/lbd/_progress-bars.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/sass/lbd/_responsive.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/sass/lbd/_sections.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/sass/lbd/_sidebar-and-main-panel.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/sass/lbd/_sliders.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/sass/lbd/_social-buttons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/sass/lbd/_tables.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/sass/lbd/_tabs-navs-pagination.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/sass/lbd/_tags.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/sass/lbd/_tooltips-and-popovers.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/sass/lbd/_typography.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/sass/lbd/_variables.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/sass/lbd/mixins/_buttons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/sass/lbd/mixins/_cards.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/sass/lbd/mixins/_chartist.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/sass/lbd/mixins/_icons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/sass/lbd/mixins/_inputs.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/sass/lbd/mixins/_labels.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/sass/lbd/mixins/_morphing-buttons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/sass/lbd/mixins/_navbars.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/sass/lbd/mixins/_social-buttons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/sass/lbd/mixins/_tabs.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/sass/lbd/mixins/_transparency.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/sass/lbd/mixins/_vendor-prefixes.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/sass/light-bootstrap-dashboard.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/forecast.jpg" afterPath="$PROJECT_DIR$/public/images/forecast.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/forecast.html" afterPath="$PROJECT_DIR$/forecast.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/forecast.css" afterPath="$PROJECT_DIR$/public/css/forecast.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/map.css" afterPath="$PROJECT_DIR$/public/css/map.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/2-axis-collector-active.svg" afterPath="$PROJECT_DIR$/public/images/2-axis-collector-active.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/2-axis-collector.svg" afterPath="$PROJECT_DIR$/public/images/2-axis-collector.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/east-west-collector-active.svg" afterPath="$PROJECT_DIR$/public/images/east-west-collector-active.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/east-west-collector.svg" afterPath="$PROJECT_DIR$/public/images/east-west-collector.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/fixed-collector-active.svg" afterPath="$PROJECT_DIR$/public/images/fixed-collector-active.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/fixed-collector.svg" afterPath="$PROJECT_DIR$/public/images/fixed-collector.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/.bower.json" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/.bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/.gitignore" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/README.md" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/adapters/standalone-framework.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/adapters/standalone-framework.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/adapters/standalone-framework.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/adapters/standalone-framework.src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/bower.json" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/css/highcharts.css" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/css/highcharts.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/highcharts-3d.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/highcharts-3d.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/highcharts-3d.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/highcharts-3d.src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/highcharts-more.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/highcharts-more.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/highcharts-more.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/highcharts-more.src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/highcharts.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/highcharts.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/highcharts.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/highcharts.src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/highmaps.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/highmaps.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/highmaps.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/highmaps.src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/highstock.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/highstock.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/highstock.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/highstock.src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/highcharts-3d.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/highcharts-3d.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/highcharts-3d.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/highcharts-3d.src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/highcharts-more.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/highcharts-more.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/highcharts-more.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/highcharts-more.src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/highcharts.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/highcharts.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/highcharts.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/highcharts.src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/highmaps.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/highmaps.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/highmaps.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/highmaps.src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/highstock.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/highstock.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/highstock.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/highstock.src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/accessibility.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/accessibility.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/accessibility.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/accessibility.src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/annotations.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/annotations.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/annotations.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/annotations.src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/boost-canvas.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/boost-canvas.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/boost-canvas.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/boost-canvas.src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/boost.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/boost.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/boost.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/boost.src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/broken-axis.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/broken-axis.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/broken-axis.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/broken-axis.src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/data.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/data.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/data.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/data.src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/drilldown.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/drilldown.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/drilldown.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/drilldown.src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/exporting.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/exporting.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/exporting.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/exporting.src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/funnel.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/funnel.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/funnel.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/funnel.src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/gantt.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/gantt.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/gantt.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/gantt.src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/grid-axis.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/grid-axis.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/grid-axis.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/grid-axis.src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/heatmap.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/heatmap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/heatmap.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/heatmap.src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/map.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/map.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/map.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/map.src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/no-data-to-display.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/no-data-to-display.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/no-data-to-display.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/no-data-to-display.src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/offline-exporting.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/offline-exporting.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/offline-exporting.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/offline-exporting.src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/overlapping-datalabels.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/overlapping-datalabels.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/overlapping-datalabels.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/overlapping-datalabels.src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/series-label.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/series-label.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/series-label.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/series-label.src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/solid-gauge.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/solid-gauge.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/solid-gauge.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/solid-gauge.src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/static-scale.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/static-scale.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/static-scale.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/static-scale.src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/stock.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/stock.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/stock.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/stock.src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/treemap.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/treemap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/treemap.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/treemap.src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/xrange-series.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/xrange-series.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/xrange-series.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/modules/xrange-series.src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/themes/dark-blue.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/themes/dark-blue.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/themes/dark-green.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/themes/dark-green.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/themes/dark-unica.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/themes/dark-unica.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/themes/gray.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/themes/gray.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/themes/grid-light.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/themes/grid-light.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/themes/grid.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/themes/grid.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/themes/sand-signika.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/themes/sand-signika.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/themes/skies.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/js/themes/skies.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/lib/canvg.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/lib/canvg.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/lib/canvg.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/lib/canvg.src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/lib/jspdf.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/lib/jspdf.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/lib/jspdf.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/lib/jspdf.src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/lib/rgbcolor.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/lib/rgbcolor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/lib/rgbcolor.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/lib/rgbcolor.src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/lib/svg2pdf.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/lib/svg2pdf.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/lib/svg2pdf.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/lib/svg2pdf.src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/accessibility.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/accessibility.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/accessibility.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/accessibility.src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/annotations.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/annotations.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/annotations.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/annotations.src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/boost-canvas.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/boost-canvas.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/boost-canvas.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/boost-canvas.src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/boost.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/boost.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/boost.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/boost.src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/broken-axis.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/broken-axis.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/broken-axis.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/broken-axis.src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/canvas-tools.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/canvas-tools.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/canvas-tools.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/canvas-tools.src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/data.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/data.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/data.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/data.src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/drilldown.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/drilldown.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/drilldown.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/drilldown.src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/exporting.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/exporting.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/exporting.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/exporting.src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/funnel.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/funnel.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/funnel.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/funnel.src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/gantt.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/gantt.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/gantt.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/gantt.src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/grid-axis.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/grid-axis.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/grid-axis.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/grid-axis.src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/heatmap.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/heatmap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/heatmap.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/heatmap.src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/map.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/map.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/map.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/map.src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/no-data-to-display.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/no-data-to-display.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/no-data-to-display.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/no-data-to-display.src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/offline-exporting.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/offline-exporting.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/offline-exporting.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/offline-exporting.src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/overlapping-datalabels.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/overlapping-datalabels.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/overlapping-datalabels.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/overlapping-datalabels.src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/series-label.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/series-label.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/series-label.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/series-label.src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/solid-gauge.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/solid-gauge.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/solid-gauge.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/solid-gauge.src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/static-scale.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/static-scale.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/static-scale.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/static-scale.src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/stock.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/stock.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/stock.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/stock.src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/treemap.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/treemap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/treemap.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/treemap.src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/xrange-series.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/xrange-series.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/xrange-series.src.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/modules/xrange-series.src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/package.json" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/themes/dark-blue.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/themes/dark-blue.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/themes/dark-green.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/themes/dark-green.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/themes/dark-unica.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/themes/dark-unica.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/themes/gray.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/themes/gray.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/themes/grid-light.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/themes/grid-light.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/themes/grid.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/themes/grid.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/themes/sand-signika.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/themes/sand-signika.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/bower_components/highcharts/themes/skies.js" afterPath="$PROJECT_DIR$/public/js/bower_components/highcharts/themes/skies.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/forecast.js" afterPath="$PROJECT_DIR$/scripts/forecast.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/forecastService.js" afterPath="$PROJECT_DIR$/scripts/forecastService.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/maps.js" afterPath="$PROJECT_DIR$/scripts/maps.js" />
-    </list>
+    <list default="true" id="14139802-a0bf-41c2-8d32-0cc1bb6b2b83" name="Default" comment="" />
     <ignored path="icarus.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -270,8 +24,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1566">
-              <caret line="108" column="16" selection-start-line="108" selection-start-column="16" selection-end-line="108" selection-end-column="16" />
+            <state relative-caret-position="252">
+              <caret line="35" column="28" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
               <folding>
                 <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -613,12 +367,12 @@
       <workItem from="1493846670450" duration="6485000" />
       <workItem from="1493917049587" duration="13050000" />
       <workItem from="1493982638512" duration="11739000" />
-      <workItem from="1494274038377" duration="67000" />
+      <workItem from="1494274038377" duration="132000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88352000" />
+    <option name="totallyTimeSpent" value="88417000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1366" y="24" width="1366" height="744" extended-state="6" />
@@ -1100,8 +854,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1566">
-          <caret line="108" column="16" selection-start-line="108" selection-start-column="16" selection-end-line="108" selection-end-column="16" />
+        <state relative-caret-position="252">
+          <caret line="35" column="28" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
           <folding>
             <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
