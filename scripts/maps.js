@@ -46,16 +46,15 @@ function MapController() {
                 generatedPower = result.ghi.annual.toFixed(2);
                 setPannel(result);
                 changeEnergyValue();
-                detailsButtonEvent(result.lat, result.long);
+                detailsButtonEvent(result.lat, result.long, this.title);
             });
         }
-        $('#secondSection').hide();
+        // $('#secondSection').hide();
 
-        function detailsButtonEvent(lat, long) {
+        function detailsButtonEvent(lat, long, city) {
             $(".btn-info").on("click", function () {
                 // var generatedPower = $("#generatedPower").text();
-                forecast.get(lat, long, getChartData);
-
+                forecast.get(lat, long, city, getChartData);
                 $("#map, #legend").hide();
                 $('#secondSection').show();
             })

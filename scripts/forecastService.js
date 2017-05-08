@@ -6,20 +6,20 @@ ForecastService = function (apiKey) {
         return this;   
     }
 
-    this.get = function (lat, long, callback) {
+    this.get = function (lat, long,city, callback) {
         var requestUrl = _url + "&longitude=" + long + "&latitude=" + lat;
         $.ajax({
             type: 'GET',
             url: requestUrl,
             success: function(data) {
-                  forecast = computePoint(data, long);
+                  forecast = computePoint(data, long,city);
                   callback(forecast)
               }
         });
-    }
+    };
     
 
-    function computePoint(satelliteData, longitude) {
+    function computePoint(satelliteData, longitude, city) {
         var result = [];
         var currentDay = { forecasts: [] };
 
@@ -30,6 +30,7 @@ ForecastService = function (apiKey) {
             if (lastForecast && (lastForecast.endPeriod.getDay() != date.getDay()))
             {
                 currentDay.date = lastForecast.endPeriod;
+                currentDay.city = city;
                 result.push(currentDay);
                 currentDay = { forecasts: [] };
             }
